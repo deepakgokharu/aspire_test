@@ -1,3 +1,22 @@
+# This project contains the demo for Aspire Demo Project and mobile-friendly for most of the standard screens.
+
+# Following functionalities have been added as part of the development -
+
+-- All the buttons are working, and have onclick event attached to them. And further development for new screens would be pretty
+straight forward with the new components to be created and directly added.
+-- Following buttons are interactive but no UI has been added for them, and thus interaction with them would tell user that these
+feature will be part of next release : >All Company Cards >Set spend limit >Add to Gpay >Replace card >Home >Payments >Credit >Profile
+-- As part of test, following three functionalities have been added to the demo project - >Add new card >Freeze/Unfreeze card >Cancel/Delete card
+-- The account balance, card name, debit card no, expiry, and CVV is different for each card and thus changes when you swipe to next
+card in "My Debit Cards" section.
+-- The Freeze/Unfreeze option disables the card and its option of "Show Card number".
+-- The Cancel card will ask for a prompt before deleting the card from the list.
+-- The Add new card will give the user a option to add new card, with only card name being a editable field and other fields are
+auto-generated.
+-- The card-details dropdown is currently filled with limited but real card details.
+-- The recent transactions are also real card transactions and have option to either see 3 top transactions or all transaction.
+The "View all card transaction" button is working and will expand all the remaining transaction.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
