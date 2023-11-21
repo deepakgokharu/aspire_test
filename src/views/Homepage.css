@@ -1,0 +1,20 @@
+.userDetailsBelowDiv {
+	height: 60vh;
+	z-index: -5;
+	background-color: #0c365a;
+}
+
+.cardOptions {
+	background-color: white;
+	position: relative;
+	z-index: 5;
+	border-radius: 25px 25px 0 0;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}

@@ -1,0 +1,15 @@
+.selected {
+	color: #01d167;
+}
+
+.deselected {
+	color: #dddddd;
+}
+
+.menuButton {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	cursor: pointer;
+	align-items: center;
+}

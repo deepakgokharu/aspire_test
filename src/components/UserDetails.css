@@ -1,0 +1,37 @@
+.userDetailsContainer {
+	z-index: 0;
+	height: 65vh;
+	background-color: #0c365a;
+	color: white;
+	position: fixed;
+	/* top: 0;
+	left: 0; */
+	width: 100%;
+}
+
+.aspire-logo-path {
+	opacity: 1 !important;
+	background-color: transparent;
+	fill: #01d167;
+}
+
+.aspire-logo {
+	display: flex;
+	justify-content: end;
+	margin: 2vh 5vw 1vh 0;
+}
+
+.MuiTabs-indicator {
+	background-color: #23cefd !important;
+}
+
+.debitCardBeforeDiv {
+	height: 5vh;
+	width: 115px;
+	margin-left: auto;
+	transform: translateY(calc(5vh - 1px));
+	/* background-color: white; */
+}
+.css-13xfq8m-MuiTabPanel-root {
+	padding: 12px !important;
+}
